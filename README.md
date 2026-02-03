@@ -26,6 +26,12 @@ I developed a series of decision-oriented charts to make the findings accessible
 2. **What are the main causes of delays?** Quantified that "Heavy Traffic" and "Mechanical Breakdowns" are the leading reasons for school bus lateness.
 3. **Who are the lowest-performing vendors?** Ranked bus companies by total incidents to provide a data-driven basis for performance audits.
 
+   ⚠️ File Management Note
+Due to the large scale of the original dataset (280k+ rows), the project has been split into two files to ensure performance and bypass GitHub's size limits:
+Dataset File: Contains the raw data used for the analysis.
+Analytical Report: Contains the dashboards, pivot tables, and final insights.
+This structure allows for a faster and more efficient review of the analytical work without the lag of a massive file.
+
 ## 📂 Repository Contents
 * `Bus_Breakdown_and_Delays_NYC Project.xlsx`: The complete Excel workbook containing raw data, pivot tables, and visualizations.
 * `Data Source`: NYC Open Data - Bus Breakdown and Delays.
